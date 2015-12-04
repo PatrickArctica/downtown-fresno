@@ -1,0 +1,550 @@
+/* GLOBAL STYLES */
+
+/*
+================================================================================
+GLOBAL STYLES FOR NON MOBILE SITE
+================================================================================
+*/
+
+/** {color:#FF00FF;} BE CAREFUL USING THIS GLOBAL SELECTOR */
+
+html, body {
+    height:100%;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:#000000;
+}
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color:#FF00FF; /* This is Fuchsia */
+}
+
+h1 {
+    font-size:3em;
+}
+
+
+p {
+    margin:15px 0px;
+    line-height:20px;
+}
+
+b, strong {
+    color:#FF00FF;
+}
+
+a {
+   color:#FF00FF;
+   text-decoration:none;
+}
+
+a:hover {
+    color:#7D9CDF;
+    text-decoration:underline;
+}
+
+figure {
+    margin:0px;
+    padding:0px;
+}
+
+hr {
+    padding:50px 0px;
+}
+
+/* 
+================================================================================
+HEADER STYLES 
+================================================================================
+*/
+
+header {
+    background-color:#F1F1F1;
+    /*height:150px;*/
+}
+
+#header {
+    padding:15px 0px;
+    position:relative;
+}
+
+#logo {
+    padding:15px;
+    color:#7D9CDF;
+}
+#logo:hover {
+    color:#FF00FF;
+    text-decoration:none;
+}
+
+
+
+/* 
+================================================================================
+NAVIGATION STYLES
+================================================================================
+*/
+
+#menu {
+    position:absolute;
+    top:40px;
+    right:5%;
+}
+
+/*#menu ul {*/
+/*    display:inline;*/
+/*    background-color:#FF00FF;*/
+/*    padding:13px;*/
+/*}*/
+
+#menu li {
+    display:inline;
+    padding:13px;
+    margin:0px 10px;
+    font-weight:600;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+/*#menu li:before {*/
+/*    content:"-";*/
+/*    color:rgb(255, 0, 255);*/
+/*}*/
+
+.currentPage a {
+    color:#AD235E;
+}
+.currentPage a:hover {
+    color:#7D9C95;
+}
+
+/*
+================================================================================
+BANNER STYLES
+================================================================================
+*/
+
+#bannerHome {
+    border-top:3px solid #FF00FF;
+    padding:90px 0px;
+    background:url(../images/bannerhome.jpg) no-repeat center center #7D9C95; /* center can be replaced by other attributes */
+    background-size:cover;
+    overflow:hidden; /* hides scroll bar */
+}
+
+#bannerAbout {
+    border-top:3px solid #FF00FF;
+    padding:90px 0px;
+    background:url(../images/banner-about.jpg) no-repeat center center #7D9C95; /* center can be replaced by other attributes */
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerContact {
+    border-top:3px solid #FF00FF;
+    padding:90px 0px;
+    background:url(../images/mapbanner.jpg) no-repeat center center #7D9C95; /* center can be replaced by other attributes */
+    background-size:cover;
+    overflow:hidden;
+}
+
+.bannerTitle {
+    text-align:center;
+    color:#FFFFFF; 
+    font-size:2em;
+    text-shadow:4px 4px 10px #000000; /* 1st number x coordinate 2nd number y coordinate 3rd number blur*/
+}
+/* Quentin Watt */
+/* Clear left or right will force any tag below whatever is being floated */
+/* clear both will force anything down on either side */
+
+/*
+================================================================================
+MAIN BODY SECTION
+================================================================================
+*/
+
+.mainWidth {
+    width:1200px;
+    margin:0px auto;
+    overflow:hidden;
+}
+
+#main {
+    margin-bottom:25px;
+}
+/* define width, <100% then use margin to center */
+
+/*
+================================================================================
+COLUMN STYLES
+================================================================================
+*/
+
+.columnA, .columnB, .columnC {
+    width:384px;
+}
+.columnA, .columnB {
+    float:left;
+    margin-right:23px;
+}
+.columnC {
+    float:left;
+}
+
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#7D9CDF;
+    font-size:1.5em;
+    font-weight:900;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+    padding:0px;
+}
+
+
+.likeImage span {
+    display:block;
+    font-size:1em;
+    background-color:#B2B2B2;
+    color:#FFFFFF;
+    text-align:center;
+    padding:15px 0px;
+}
+
+/*
+================================================================================
+Button Styles
+================================================================================
+*/
+
+a.button, .button {
+    padding:15px 25px;
+    background-color:#7D9C9F;
+    color:#FF00BF;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -o-border-radius:6px;
+    border-radius:15px;
+    border:3px solid #7D9F80;
+    font-weight:600;
+    float:left;
+    cursor:url(../images/lux-cursor.png), auto;    
+}
+a.button:hover, .button:hover {
+    background-color:#52C0CA;
+    color:#BF00FF;
+    text-decoration:none;
+}
+
+.bannerButton {
+    padding:15px 25px;
+    background-color:#26E4F6;
+    color:#FF00BF;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -o-border-radius:6px;
+    border-radius:15px;
+    border:3px solid #FF00BF;
+    font-weight:600;
+    width:300px;
+}
+.bannerButton:hover {
+    background-color:#52C0CA;
+    color:#7D9C9F;
+    cursor:url(../images/lux-cursor.png), auto;
+}
+
+a.buttonRed{}
+
+#bannerButton {
+    width:300px;
+    margin:0px auto;
+    text-align:center;
+    margin-top:40px;
+}
+
+/*
+================================================================================
+ABOUT ME STYLES
+================================================================================
+*/
+
+.alignLeft {
+    float:left;
+    width:384px;
+    margin-right:24px;
+}
+
+.alignRight {
+    float:right;
+    width:792px;
+    text-align:justify;
+}
+
+
+
+/*
+================================================================================
+FOOTER STYLES
+================================================================================
+*/
+
+footer {
+    clear:both;
+    padding:25px;
+    margin-top:50px;
+}
+
+footer p {
+    text-align:center;
+    font-size:1.1em;
+    
+}
+
+footer p a {
+    color:#000099;
+}
+
+footer p a:hover {
+    color:#FF00FF;
+    text-decoration:none;
+}
+
+.copyright {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top: 3px dotted #FF00FF;
+    background-color:#7D9C95;
+    display:block;
+}
+
+.social {
+    text-align:center;
+}
+
+
+
+.copyright p {
+    
+}
+
+
+/*
+================================================================================
+Table Styles
+================================================================================
+*/
+
+#myData {
+    margin:0px auto;
+    width:900px;
+}
+
+#myHeader {
+    
+}
+
+#myHeader tr th {
+    color:#FFFFFF;
+    background-color:#FF00FF;
+    text-shadow:2px 2px 5px #000000;
+    padding:5px 0px;
+    font-size:1.3em;
+}
+
+
+
+#groupData {
+    margin:0px auto;
+    width:900px;
+    
+}
+
+#groupHeader tr th {
+    color:#FFFFFF;
+    background-color:#FF00FF;
+    text-shadow:2px 2px 5px #000000;
+    padding:5px 0px;
+    font-size:1.3em;    
+}
+
+
+
+tr th {
+    background-color:#CFDAF3;
+}
+
+tr td {
+    padding:5px;
+    text-align:center;
+}
+
+table tbody tr:hover, th:hover {
+    background-color:#5B81D6;
+}
+
+table tfoot tr:hover, th:hover {
+    background-color:#5B81D6;
+}
+
+
+
+.secondaryCell {
+    background-color:#FFCCFF;
+}
+
+.primaryCell {
+    background-color:#FF99FF;
+}
+
+.averageCell {
+    background-color:#FF66FF;
+}
+
+
+
+table thead tr .roundLeft {
+    border-radius:15px 0px 0px 0px;
+}
+
+table thead tr .roundRight {
+    border-radius:0px 15px 0px 0px;    
+}
+
+table tfoot #roundLeft {
+    border-radius:0px 0px 0px 15px;
+}
+
+table tfoot #roundRight {
+    border-radius:0px 0px 15px 0px;
+}
+
+table tfoot tr th {
+    font-size:1.1em;
+}
+
+table tfoot tr td {
+    font-size:1.1em;
+}
+
+
+
+.dataDiv h1{
+    text-align:center;
+    font-size:2em;
+}
+
+.dataDiv p {
+    text-align:center;
+    margin:0px 0px 30px 0px;
+}
+
+#groupDiv h1 {
+    margin:15px 0px 0px 0px;
+}
+
+
+#typingBanner {
+    font-size:3em;
+    margin-bottom:50px;
+}
+
+/*
+================================================================================
+FORM STYLES
+================================================================================
+*/
+
+form {
+    margin:25px 0px;
+    background-color:#F1F1F1;
+    padding:15px;
+    width:200px;
+    border-radius:15px;
+    border:2px solid #000000;
+    
+}
+
+form input {
+    text-align:center;
+}
+
+.asterisk {
+    color:#FF0000;
+    font-weight:900;
+}
+
+input, textarea {
+    border-radius:25px;
+    border:2px solid #FF00FF;
+    box-shadow:1px 1px 1px #FF00FF inset;
+    color:#FF00FF;
+    display:block;
+}
+
+textarea {
+    height:200px;
+}
+
+
+/*
+================================================================================
+EXTRA STYLES
+================================================================================
+*/
+
+fieldset {
+    background-color:#FFFFFF;
+    width:150px;
+}
+
+.fa {
+    background-color:rgb(255, 0, 255);
+    border: 3px solid #FFF;
+    font-size: 1.5em !important;
+    margin: 15px;
+    color:#FFF;
+    height:28px;
+    width:28px;
+    padding:10px;
+    border-radius:100%;
+    text-align:center;
+}
+
+.fa:hover {
+    background-color:#000099;
+}
+
+.fa-instagram {background-color:#125688;}
+.fa-kik {background-color:#82BC23;}
+.fa-tumblr {background-color:#36465D;}
+.fa-linkedin {background-color:#0077B5;}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .mainWidth {
+        display:block;
+        float:none;
+        width:auto;
+        margin:1% auto;
+    }
+    mainBody {
+        background-color:#ffffff;
+    }
+}

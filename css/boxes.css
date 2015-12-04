@@ -1,0 +1,117 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color:#000000;
+}
+
+#mainBody {
+    width:1200px;
+    margin:20px auto;
+}
+
+#box1, #box2, #box3 {
+    width:300px;
+    /*min-height:540px;*/
+    float:left;
+    color:#fff;
+    padding:20px;
+    margin:15px;
+}
+
+#box1 {
+    background-color:#ff00ff;
+}
+
+#box2 {
+    background-color:#00ffff; 
+}
+
+#box3 {
+    background-color:#00ff00;
+}
+
+.lux {
+    width:300px;
+    margin:0px auto;
+    display:block;
+}
+/*
+================================================================================
+MY MEDIA QUERIES FOR SCREEN SIZES 1024PX, FOR TABLETS
+================================================================================
+*/
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color:#999966;    
+    }
+    #box1, #box2, #box3 {
+        width:auto;
+        margin:1% auto;
+    }
+    h3 {
+        font-size:2em;
+    }
+    h4 {
+        font-size:1.75em;
+    }
+    p {
+        font-size:1.25em;
+    }
+    #box3 {
+        display:none;
+        /*visibility:hidden;*/
+    }
+    .lux {
+        width:90%;
+    }
+    #mainBody {
+        width:100%;
+        margin:20px auto;
+    }
+}
+
+/*
+================================================================================
+MY MEDIA QUERIES FOR SCREEN SIZES 400PX, FOR PHONES
+================================================================================
+*/
+
+@media screen and (max-width: 400px) {
+    #box1 {
+        background-color:#00ff00;
+        color:#999999;
+    }
+    
+    #box2 {
+        background-color:#ff00ff;
+    }
+    
+    #box3 {
+        background-color:#00ffff;
+    }
+}
+
+/*
+================================================================================
+MY MEDIA QUERIES FOR SCREEN SIZES 100PX, FOR WEARABLE DEVICES, LIKE WATCHES
+================================================================================
+*/
+
+@media screen and (max-width: 100px) {
+    
+}
+
+
+
+
+
+
+
+
+
