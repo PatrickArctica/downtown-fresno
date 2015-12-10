@@ -8,6 +8,8 @@ GLOBAL STYLES FOR NON MOBILE SITE
 
 /** {color:#FF00FF;} BE CAREFUL USING THIS GLOBAL SELECTOR */
 
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Press+Start+2P|Exo);
+
 html, body {
     height:100%;
 }
@@ -15,7 +17,8 @@ html, body {
 body {
     margin:0px;
     padding:0px;
-    font-family:'Lucida Sans', Verdana, sans-serif;
+    /*font-family:'Lucida Sans', Verdana, sans-serif;*/
+    font-family: 'Indie Flower', cursive;
     font-size:16px;
     font-weight:500;
     color:#000000;
@@ -25,6 +28,7 @@ h1, h2, h3 {
     margin:0px;
     padding:0px;
     color:#FF00FF; /* This is Fuchsia */
+    font-family: 'Exo', sans-serif;
 }
 
 h1 {
@@ -508,7 +512,7 @@ EXTRA STYLES
 fieldset {
     background-color:#FFFFFF;
     width:150px;
-}
+}mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 .fa {
     background-color:rgb(255, 0, 255);
@@ -547,4 +551,30 @@ fieldset {
     mainBody {
         background-color:#ffffff;
     }
+    .alignLeft {
+        clear:none;
+    }
+    
+    .alignRight {
+        float:none; 
+        width:86%; 
+        margin:5% auto;
+        clear:none;
+    }
+    .columnA, .columnB, .columnC {
+        clear:both;
+        width:auto;
+        margin:1% 14%;
+    }
+    .likeImage img {
+        margin:auto;
+        width:100%;
+    }
+    section article a.button {
+        clear:both;
+        margin:0 33%;
+        width:auto;
+        font-size:.70em;
+    }
+    
 }
