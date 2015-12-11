@@ -273,7 +273,6 @@ a.button:hover, .button:hover {
 a.buttonRed{}
 
 #bannerButton {
-    width:300px;
     margin:0px auto;
     text-align:center;
     margin-top:40px;
@@ -502,7 +501,13 @@ textarea {
     height:200px;
 }
 
-
+#wufoo-zvq42j30o4o6ti {
+    width:90%;
+    border-radius:6px;
+    background-color:#F1F1F1;
+    margin:20px auto;
+    border:4px solid #FF00FF;
+}
 /*
 ================================================================================
 EXTRA STYLES
@@ -512,7 +517,7 @@ EXTRA STYLES
 fieldset {
     background-color:#FFFFFF;
     width:150px;
-}mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+}
 
 .fa {
     background-color:rgb(255, 0, 255);
@@ -520,8 +525,8 @@ fieldset {
     font-size: 1.5em !important;
     margin: 15px;
     color:#FFF;
-    height:28px;
-    width:28px;
+    height:58px;
+    width:58px;
     padding:10px;
     border-radius:100%;
     text-align:center;
@@ -535,46 +540,3 @@ fieldset {
 .fa-kik {background-color:#82BC23;}
 .fa-tumblr {background-color:#36465D;}
 .fa-linkedin {background-color:#0077B5;}
-
-
-
-
-
-
-@media screen and (max-width: 1024px) {
-    .mainWidth {
-        display:block;
-        float:none;
-        width:auto;
-        margin:1% auto;
-    }
-    mainBody {
-        background-color:#ffffff;
-    }
-    .alignLeft {
-        clear:none;
-    }
-    
-    .alignRight {
-        float:none; 
-        width:86%; 
-        margin:5% auto;
-        clear:none;
-    }
-    .columnA, .columnB, .columnC {
-        clear:both;
-        width:auto;
-        margin:1% 14%;
-    }
-    .likeImage img {
-        margin:auto;
-        width:100%;
-    }
-    section article a.button {
-        clear:both;
-        margin:0 33%;
-        width:auto;
-        font-size:.70em;
-    }
-    
-}

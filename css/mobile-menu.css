@@ -20,6 +20,42 @@ TARGETING TABLET DEVICES BELOW
 */
 
 @media screen and (max-width:1024px) {
+    
+    .mainWidth {
+        display:block;
+        float:none;
+        width:95%;
+        margin:1% auto;
+    }
+    mainBody {
+        background-color:#ffffff;
+    }
+    .alignLeft {
+        clear:none;
+    }
+    
+    .alignRight {
+        float:none; 
+        width:86%; 
+        margin:5% auto;
+        clear:none;
+    }
+    .columnA, .columnB, .columnC {
+        clear:both;
+        width:auto;
+        margin:1% 10%;
+    }
+    .likeImage img {
+        margin:auto;
+        width:100%;
+    }
+    section article a.button {
+        clear:both;
+        margin:0 33%;
+        width:auto;
+        font-size:.70em;
+    }
+    
     nav ul {
         display:none;
     }
@@ -76,9 +112,21 @@ TARGETING TABLET DEVICES BELOW
         width:400px;
         z-index:9999;
         position:relative;
-        float:;
     }
     
+    .dasMe {
+        width:100%;
+    }
+    
+    .mobileAside {
+         width:100%;
+         display:box;
+    }
+    
+    .moblieAbout {
+        width:auto;
+        
+    }
     
     nav > ul > li {
         
