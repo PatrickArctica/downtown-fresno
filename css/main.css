@@ -540,3 +540,32 @@ fieldset {
 .fa-kik {background-color:#82BC23;}
 .fa-tumblr {background-color:#36465D;}
 .fa-linkedin {background-color:#0077B5;}
+
+/*
+================================================================================
+GALLERY STYLES
+================================================================================
+*/
+
+.galleryImages {
+    width:280px;
+    margin:10px;
+    float:left;
+    display:block;
+    border:2px solid #FF00FF;
+    background-color:#FFB1FF;
+}
+
+.galleryImages img {
+    width:276px;
+}
+
+.figNewton {
+    padding:10px;
+    font-size:15px;
+}
+
+.bannerGallery {
+    font-size:50px;
+    margin:20px 0px;
+}
